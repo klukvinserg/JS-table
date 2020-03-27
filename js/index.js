@@ -7,6 +7,7 @@ let arrs = [
 
 document.write("<table>");
 document.write("<tr>");
+document.write("<th></th>");
 document.write("<th>Number 1</th>");
 document.write("<th>Number 2</th>");
 document.write("<th>Number 3</th>");
@@ -15,6 +16,7 @@ document.write("</tr>");
 
 for (let i = 0; i < arrs.length; i++) {
   document.write("<tr>");
+  document.write(`<th>Array #${i + 1}</th>`);
   for (let j = 0; j < arrs[i].length; j++) {
     document.write(`<td>${arrs[i][j]}</td>`);
   }
