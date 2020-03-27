@@ -4,8 +4,8 @@
 }
 
 h1 {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 table {
@@ -14,16 +14,16 @@ table {
   border: 2px solid red;
   margin-top: 30px;
   border-collapse: collapse;
+  background-color: skyblue;
 }
 
 td {
   border: 1px dotted red;
   text-align: center;
-  border-collapse: inherit;
 }
 
 th {
-  color: red;
+  color: rgb(56, 7, 7);
   border: red 2px solid;
-  border-collapse: inherit;
+  background-color: rosybrown;
 }
