@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border: 2px solid red;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px dotted red;
+  text-align: center;
+  border-collapse: inherit;
+}
+
+th {
+  color: red;
+  border: red 2px solid;
+  border-collapse: inherit;
+}
